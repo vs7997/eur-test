@@ -4,7 +4,7 @@
         <callable_outputs/>
         <copied_from/>
         <description>Insert a record into 'x_symct_dlp_eur_dlpincident' with the following values:
-Assigned To = EUR Remediator
+Assigned To = {{Step 2: Create a User.User}}
 and Comment = Assigning to EUR Remediator
 and Incident Id = 7997
 and Incident State = Assigned
@@ -15,22 +15,23 @@ and Severity = 1
 Confirm the record was successfully inserted</description>
         <display_name>Record Insert</display_name>
         <inputs/>
+        <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>2</order>
+        <order>3</order>
         <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
         <sys_created_on>2026-07-08 10:07:52</sys_created_on>
         <sys_id>e4741288fb0a8f5079cbfefd6eefdcac</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
         <sys_update_name>sys_atf_step_e4741288fb0a8f5079cbfefd6eefdcac</sys_update_name>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-08 10:27:55</sys_updated_on>
+        <sys_updated_on>2026-07-08 10:31:52</sys_updated_on>
         <table>x_symct_dlp_eur_dlpincident</table>
         <test display_value="Sample test">5d441e48fb0a8f5079cbfefd6eefdc92</test>
         <timeout/>
@@ -59,10 +60,10 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
         <sys_created_on>2026-07-08 10:07:52</sys_created_on>
         <sys_id>69c45688fb0a8f5079cbfefd6eefdc4b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-08 10:07:52</sys_updated_on>
-        <value>u_assigned_to=3bd6e131fb79cf1079cbfefd6eefdc1e^u_comment=Assigning to EUR Remediator^u_dlp_incident_id=7997^u_incident_state=2^u_incident_type=FILE_SYSTEM^u_policy_name=Policy 1^u_remediatoremail=eur.remediator@sample.com^u_severity=1^EQ</value>
+        <sys_updated_on>2026-07-08 10:31:52</sys_updated_on>
+        <value>u_assigned_to={{step['e31a96c0fb4a8f5079cbfefd6eefdc07'].user}}^u_comment=Assigning to EUR Remediator^u_dlp_incident_id=7997^u_incident_state=2^u_incident_type=FILE_SYSTEM^u_policy_name=Policy 1^u_remediatoremail=eur.remediator@sample.com^u_severity=1^EQ</value>
         <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -93,5 +94,29 @@ Confirm the record was successfully inserted</description>
         <value>1</value>
         <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_14872288df60220062fe6c7a4df26319^id=e4741288fb0a8f5079cbfefd6eefdcac"/>
+    <sys_element_mapping action="delete_multiple" query="id=e4741288fb0a8f5079cbfefd6eefdcac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>e4741288fb0a8f5079cbfefd6eefdcac</id>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-08 10:07:52</sys_created_on>
+        <sys_id>a1c45688fb0a8f5079cbfefd6eefdc4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-08 10:07:52</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>e4741288fb0a8f5079cbfefd6eefdcac</id>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-08 10:07:52</sys_created_on>
+        <sys_id>e5c45688fb0a8f5079cbfefd6eefdc4a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-08 10:31:52</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>u_assigned_to={{step['e31a96c0fb4a8f5079cbfefd6eefdc07'].user}}^u_comment=Assigning to EUR Remediator^u_dlp_incident_id=7997^u_incident_state=2^u_incident_type=FILE_SYSTEM^u_policy_name=Policy 1^u_remediatoremail=eur.remediator@sample.com^u_severity=1^EQ</value>
+    </sys_element_mapping>
 </record_update>
