@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Set the following values on the form:
+Assigned To = EUR Remediator
+and Comment = Assigning to EUR Remediator
+and Incident Id = 1234
+and Incident State = Assigned
+and Incident Type = FILE_SYSTEM
+and Policy Name = Policy 1
+and Severity = 1
+and Remediator Email = eur.remediator@sample.com</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-10 09:46:12</sys_created_on>
+        <sys_id>eea26c3093428350f153fbc48aba10db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
+        <sys_update_name>sys_atf_step_eea26c3093428350f153fbc48aba10db</sys_update_name>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-10 09:52:13</sys_updated_on>
+        <table>x_symct_dlp_eur_dlpincident</table>
+        <test display_value="Sample Test 2 - UI">ce7a807c934e4350f153fbc48aba1084</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=eea26c3093428350f153fbc48aba10db"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>eea26c3093428350f153fbc48aba10db</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-10 09:46:13</sys_created_on>
+        <sys_id>3ff2e47093428350f153fbc48aba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-10 09:46:13</sys_updated_on>
+        <value>x_symct_dlp_eur_dlpincident</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>eea26c3093428350f153fbc48aba10db</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-10 09:46:13</sys_created_on>
+        <sys_id>73f2e47093428350f153fbc48aba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-10 09:46:13</sys_updated_on>
+        <value>u_assigned_to=3bd6e131fb79cf1079cbfefd6eefdc1e^u_comment=Assigning to EUR Remediator^u_dlp_incident_id=1234^u_incident_state=2^u_incident_type=FILE_SYSTEM^u_policy_name=Policy 1^u_severity=1^u_remediatoremail=eur.remediator@sample.com^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>eea26c3093428350f153fbc48aba10db</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-10 09:46:13</sys_created_on>
+        <sys_id>f7f2e47093428350f153fbc48aba1077</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-10 09:46:13</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=eea26c3093428350f153fbc48aba10db"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</application>
+        <file_path/>
+        <instance_id>68c81aebdbf2d7004f035d00cf9619ef</instance_id>
+        <instance_name>symcbetaeurinstance3</instance_name>
+        <name>sys_atf_step_eea26c3093428350f153fbc48aba10db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Set the following values on the form:
+Assigned To = EUR Remediator
+and Comment = Assigning to EUR Remediator
+and Incident Id = 1234
+and Incident State = Assigned
+and Incident Type = FILE_SYSTEM
+and Policy Name = Policy 1
+and Severity = 1
+and Remediator Email = eur.remediator@sample.com</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>vaidehi_sadhu</sys_created_by><sys_created_on>2026-07-10 09:46:12</sys_created_on><sys_id>eea26c3093428350f153fbc48aba10db</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package><sys_policy/><sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope><sys_update_name>sys_atf_step_eea26c3093428350f153fbc48aba10db</sys_update_name><sys_updated_by>vaidehi_sadhu</sys_updated_by><sys_updated_on>2026-07-10 09:52:13</sys_updated_on><table>x_symct_dlp_eur_dlpincident</table><test display_value="Sample Test 2 - UI">ce7a807c934e4350f153fbc48aba1084</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=eea26c3093428350f153fbc48aba10db"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>eea26c3093428350f153fbc48aba10db</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>vaidehi_sadhu</sys_created_by><sys_created_on>2026-07-10 09:46:13</sys_created_on><sys_id>3ff2e47093428350f153fbc48aba1077</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>vaidehi_sadhu</sys_updated_by><sys_updated_on>2026-07-10 09:46:13</sys_updated_on><value>x_symct_dlp_eur_dlpincident</value><variable display_value="Table">424ca6465320220002c6435723dc34b5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>eea26c3093428350f153fbc48aba10db</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>vaidehi_sadhu</sys_created_by><sys_created_on>2026-07-10 09:46:13</sys_created_on><sys_id>73f2e47093428350f153fbc48aba1078</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>vaidehi_sadhu</sys_updated_by><sys_updated_on>2026-07-10 09:46:13</sys_updated_on><value>u_assigned_to=3bd6e131fb79cf1079cbfefd6eefdc1e^u_comment=Assigning to EUR Remediator^u_dlp_incident_id=1234^u_incident_state=2^u_incident_type=FILE_SYSTEM^u_policy_name=Policy 1^u_severity=1^u_remediatoremail=eur.remediator@sample.com^EQ</value><variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>eea26c3093428350f153fbc48aba10db</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>vaidehi_sadhu</sys_created_by><sys_created_on>2026-07-10 09:46:13</sys_created_on><sys_id>f7f2e47093428350f153fbc48aba1077</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>vaidehi_sadhu</sys_updated_by><sys_updated_on>2026-07-10 09:46:13</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=eea26c3093428350f153fbc48aba10db"/></record_update>]]></payload>
+        <payload_hash>-2105082663</payload_hash>
+        <record_name>Set Field Values</record_name>
+        <reverted_from/>
+        <source>30c39a08fb0a8f5079cbfefd6eefdcba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-10 09:52:13</sys_created_on>
+        <sys_id>bf54643493428350f153fbc48aba10e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f4b7123720000001</sys_recorded_at>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-10 09:52:13</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>fb546434324283503694d2a1e7b189e3</update_guid>
+        <update_guid_history>fb546434324283503694d2a1e7b189e3:-2105082663,3ff2e4703142835008b5d2e50ea9387a:-1772137702</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-10 09:52:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>4902de14de0e41909966a8bd1768baa4</sys_id>
+        <sys_metadata>eea26c3093428350f153fbc48aba10db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
+        <sys_scope_delete display_value="">051adedced474652a61a9c0d7f604a31</sys_scope_delete>
+        <sys_update_name>sys_atf_step_eea26c3093428350f153fbc48aba10db</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_eea26c3093428350f153fbc48aba10db">bf54643493428350f153fbc48aba10e4</sys_update_version>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-10 09:52:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
