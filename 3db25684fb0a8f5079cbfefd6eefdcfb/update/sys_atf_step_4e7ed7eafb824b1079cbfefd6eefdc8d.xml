@@ -4,25 +4,25 @@
         <callable_outputs/>
         <copied_from/>
         <description>Set the following values on the form:
-Reassigned To = {{Step 1: Create a User.User}}
-and Comment = Reassigned to EUR Admin</description>
+Reassigned To = {{Step 2: Create a User.User}}
+and Comment = Reassigning to EUR Remediator</description>
         <display_name>Set Field Values</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>10</order>
+        <order>5</order>
         <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
-        <sys_created_on>2026-07-10 08:03:14</sys_created_on>
-        <sys_id>d65b0cbc934e4350f153fbc48aba10ac</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_created_on>2026-07-16 09:55:06</sys_created_on>
+        <sys_id>4e7ed7eafb824b1079cbfefd6eefdc8d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Set Field Values</sys_name>
         <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
-        <sys_update_name>sys_atf_step_d65b0cbc934e4350f153fbc48aba10ac</sys_update_name>
+        <sys_update_name>sys_atf_step_4e7ed7eafb824b1079cbfefd6eefdc8d</sys_update_name>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
         <sys_updated_on>2026-07-16 09:56:38</sys_updated_on>
         <table>x_symct_dlp_eur_dlpincident</table>
@@ -30,60 +30,60 @@ and Comment = Reassigned to EUR Admin</description>
         <timeout/>
         <warning_message/>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=d65b0cbc934e4350f153fbc48aba10ac"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4e7ed7eafb824b1079cbfefd6eefdc8d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>d65b0cbc934e4350f153fbc48aba10ac</document_key>
+        <document_key>4e7ed7eafb824b1079cbfefd6eefdc8d</document_key>
         <order>50</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
-        <sys_created_on>2026-07-10 08:03:14</sys_created_on>
-        <sys_id>236b8070938e4350f153fbc48aba107e</sys_id>
+        <sys_created_on>2026-07-16 09:55:06</sys_created_on>
+        <sys_id>2c9e5beafb824b1079cbfefd6eefdcfe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-10 08:03:14</sys_updated_on>
+        <sys_updated_on>2026-07-16 09:55:06</sys_updated_on>
         <value>standard_ui</value>
         <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>d65b0cbc934e4350f153fbc48aba10ac</document_key>
+        <document_key>4e7ed7eafb824b1079cbfefd6eefdc8d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
-        <sys_created_on>2026-07-10 08:03:14</sys_created_on>
-        <sys_id>676b8070938e4350f153fbc48aba107e</sys_id>
+        <sys_created_on>2026-07-16 09:55:06</sys_created_on>
+        <sys_id>609e5beafb824b1079cbfefd6eefdcff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-10 08:03:14</sys_updated_on>
+        <sys_updated_on>2026-07-16 09:55:06</sys_updated_on>
         <value>x_symct_dlp_eur_dlpincident</value>
         <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>d65b0cbc934e4350f153fbc48aba10ac</document_key>
+        <document_key>4e7ed7eafb824b1079cbfefd6eefdc8d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
-        <sys_created_on>2026-07-10 08:03:14</sys_created_on>
-        <sys_id>ab6b8070938e4350f153fbc48aba107e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2026-07-16 09:55:06</sys_created_on>
+        <sys_id>a49e5beafb824b1079cbfefd6eefdcff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-10 08:30:06</sys_updated_on>
-        <value>u_reassigned_to={{step['709a88fc934e4350f153fbc48aba102d'].user}}^u_comment=Reassigned to EUR Admin^EQ</value>
+        <sys_updated_on>2026-07-16 09:55:06</sys_updated_on>
+        <value>u_reassigned_to={{step['10ba4cfc934e4350f153fbc48aba10e6'].user}}^u_comment=Reassigning to EUR Remediator^EQ</value>
         <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=d65b0cbc934e4350f153fbc48aba10ac"/>
+    <sys_element_mapping action="delete_multiple" query="id=4e7ed7eafb824b1079cbfefd6eefdc8d"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>field_values</field>
-        <id>d65b0cbc934e4350f153fbc48aba10ac</id>
+        <id>4e7ed7eafb824b1079cbfefd6eefdc8d</id>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
-        <sys_created_on>2026-07-10 08:03:14</sys_created_on>
-        <sys_id>6f6b8070938e4350f153fbc48aba107d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2026-07-16 09:55:06</sys_created_on>
+        <sys_id>689e5beafb824b1079cbfefd6eefdcfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-10 08:30:06</sys_updated_on>
+        <sys_updated_on>2026-07-16 09:55:06</sys_updated_on>
         <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
-        <value>u_reassigned_to={{step['709a88fc934e4350f153fbc48aba102d'].user}}^u_comment=Reassigned to EUR Admin^EQ</value>
+        <value>u_reassigned_to={{step['10ba4cfc934e4350f153fbc48aba10e6'].user}}^u_comment=Reassigning to EUR Remediator^EQ</value>
     </sys_element_mapping>
 </record_update>
