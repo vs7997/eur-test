@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Confirm that at least the following application menus are not visible in UI16: Symantec DLP End User Remediation</description>
+        <display_name>Application Menu Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Application Menu Visibility">6228cf753752030064a52f3c8e41f1a8</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-17 06:58:35</sys_created_on>
+        <sys_id>b8bf3ff6fb0e8b1079cbfefd6eefdcb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Menu Visibility</sys_name>
+        <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
+        <sys_update_name>sys_atf_step_b8bf3ff6fb0e8b1079cbfefd6eefdcb4</sys_update_name>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-17 06:58:35</sys_updated_on>
+        <table/>
+        <test display_value="Sample Test 5 - UI Navigation">4be93776fbca8b1079cbfefd6eefdc40</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b8bf3ff6fb0e8b1079cbfefd6eefdcb4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8bf3ff6fb0e8b1079cbfefd6eefdcb4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-17 06:58:35</sys_created_on>
+        <sys_id>24cfbff6fb0e8b1079cbfefd6eefdc02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-17 06:58:35</sys_updated_on>
+        <value>at_least_applications_visible</value>
+        <variable display_value="Visible assert type">746a8fb53752030064a52f3c8e41f14c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8bf3ff6fb0e8b1079cbfefd6eefdcb4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-17 06:58:35</sys_created_on>
+        <sys_id>68cfbff6fb0e8b1079cbfefd6eefdc02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-17 06:58:35</sys_updated_on>
+        <value>at_least_applications_not_visible</value>
+        <variable display_value="Not visible assert type">abc1e03573220300c79260bdfaf6a7f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8bf3ff6fb0e8b1079cbfefd6eefdcb4</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-17 06:58:35</sys_created_on>
+        <sys_id>a8cfbff6fb0e8b1079cbfefd6eefdc01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-17 06:58:35</sys_updated_on>
+        <value>30d25be3dbc4db00731c9972ca961997</value>
+        <variable display_value="Not visible application menus">1b52683573220300c79260bdfaf6a763</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8bf3ff6fb0e8b1079cbfefd6eefdcb4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-17 06:58:35</sys_created_on>
+        <sys_id>accfbff6fb0e8b1079cbfefd6eefdc02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-17 06:58:35</sys_updated_on>
+        <value>ui16</value>
+        <variable display_value="Navigator">e26225ab73f22010ac1560bdfaf6a7e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b8bf3ff6fb0e8b1079cbfefd6eefdcb4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-17 06:58:35</sys_created_on>
+        <sys_id>eccfbff6fb0e8b1079cbfefd6eefdc01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-17 06:58:35</sys_updated_on>
+        <value/>
+        <variable display_value="Visible application menus">e9994bb53752030064a52f3c8e41f1a9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_6228cf753752030064a52f3c8e41f1a8^id=b8bf3ff6fb0e8b1079cbfefd6eefdcb4"/>
+</record_update>
