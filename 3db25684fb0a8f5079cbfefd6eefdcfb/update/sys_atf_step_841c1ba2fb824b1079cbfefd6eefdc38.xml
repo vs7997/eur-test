@@ -6,7 +6,8 @@
         <description>Create user with the following values:
 First name = EUR
 and Last name = Remediator
-and Email = eur.remediator@sample.com</description>
+and Email = eur.remediator@sample.com
+With roles: x_symct_dlp_eur.remediator</description>
         <display_name>Create a User</display_name>
         <inputs/>
         <mugshots_cache_json/>
@@ -17,14 +18,14 @@ and Email = eur.remediator@sample.com</description>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
         <sys_created_on>2026-07-16 09:44:29</sys_created_on>
         <sys_id>841c1ba2fb824b1079cbfefd6eefdc38</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Create a User</sys_name>
         <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
         <sys_update_name>sys_atf_step_841c1ba2fb824b1079cbfefd6eefdc38</sys_update_name>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-16 09:44:29</sys_updated_on>
+        <sys_updated_on>2026-07-22 11:44:29</sys_updated_on>
         <table>sys_user</table>
         <test display_value="Sample Test 4 - UI Desync">c1dbdba6fb824b1079cbfefd6eefdc32</test>
         <timeout/>
@@ -109,10 +110,10 @@ and Email = eur.remediator@sample.com</description>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
         <sys_created_on>2026-07-16 09:44:29</sys_created_on>
         <sys_id>f42cd3e6fb824b1079cbfefd6eefdc96</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-16 09:44:29</sys_updated_on>
-        <value/>
+        <sys_updated_on>2026-07-22 11:44:29</sys_updated_on>
+        <value>82475be7dbc4db00731c9972ca96193b</value>
         <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">

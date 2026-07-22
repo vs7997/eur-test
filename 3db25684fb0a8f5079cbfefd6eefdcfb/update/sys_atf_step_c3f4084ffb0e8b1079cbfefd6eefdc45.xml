@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <callable_outputs/>
         <copied_from/>
         <description>Confirm that the following UI actions on the 'Remediation Action' related list on the 'Remediation Action' form are not visible: Delete, Delete with preview...</description>
@@ -14,14 +14,14 @@
         <sys_created_by>vaidehi_sadhu</sys_created_by>
         <sys_created_on>2026-07-17 07:21:54</sys_created_on>
         <sys_id>c3f4084ffb0e8b1079cbfefd6eefdc45</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Validate List UI Action Visibility</sys_name>
         <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
         <sys_update_name>sys_atf_step_c3f4084ffb0e8b1079cbfefd6eefdc45</sys_update_name>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-17 09:00:39</sys_updated_on>
+        <sys_updated_on>2026-07-22 11:26:37</sys_updated_on>
         <table>x_symct_dlp_eur_remediationaction</table>
         <test display_value="Sample Test 6 - UI Delete button">1733884ffb0e8b1079cbfefd6eefdcd1</test>
         <timeout/>

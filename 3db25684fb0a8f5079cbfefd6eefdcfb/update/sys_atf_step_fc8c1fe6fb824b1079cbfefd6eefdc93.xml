@@ -24,14 +24,14 @@ Confirm the record was successfully inserted</description>
         <sys_created_by>vaidehi_sadhu</sys_created_by>
         <sys_created_on>2026-07-16 09:47:24</sys_created_on>
         <sys_id>fc8c1fe6fb824b1079cbfefd6eefdc93</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Record Insert</sys_name>
         <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
         <sys_update_name>sys_atf_step_fc8c1fe6fb824b1079cbfefd6eefdc93</sys_update_name>
         <sys_updated_by>vaidehi_sadhu</sys_updated_by>
-        <sys_updated_on>2026-07-16 09:47:24</sys_updated_on>
+        <sys_updated_on>2026-07-22 11:39:49</sys_updated_on>
         <table>x_symct_dlp_eur_dlpincident</table>
         <test display_value="Sample Test 4 - UI Desync">c1dbdba6fb824b1079cbfefd6eefdc32</test>
         <timeout/>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Confirm that the following UI actions are not visible: Hide Delete - DLP Incident
+With a failure timeout of 5 Seconds</description>
+        <display_name>UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>9</order>
+        <step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-22 11:32:38</sys_created_on>
+        <sys_id>775e2e2c93924b50f153fbc48aba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="Eur Test App Sample" source="x_cate_eur_test_ap">3db25684fb0a8f5079cbfefd6eefdcfb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Eur Test App Sample">3db25684fb0a8f5079cbfefd6eefdcfb</sys_scope>
+        <sys_update_name>sys_atf_step_775e2e2c93924b50f153fbc48aba1032</sys_update_name>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-22 11:32:38</sys_updated_on>
+        <table>x_symct_dlp_eur_dlpincident</table>
+        <test display_value="Sample Test 6 - UI Delete button">1733884ffb0e8b1079cbfefd6eefdcd1</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=775e2e2c93924b50f153fbc48aba1032"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>775e2e2c93924b50f153fbc48aba1032</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-22 11:32:38</sys_created_on>
+        <sys_id>3b6eee2c93924b50f153fbc48aba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-22 11:32:38</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>775e2e2c93924b50f153fbc48aba1032</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-22 11:32:38</sys_created_on>
+        <sys_id>7f6eee2c93924b50f153fbc48aba1019</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-22 11:32:38</sys_updated_on>
+        <value/>
+        <variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>775e2e2c93924b50f153fbc48aba1032</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-22 11:32:38</sys_created_on>
+        <sys_id>b36eee2c93924b50f153fbc48aba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-22 11:32:38</sys_updated_on>
+        <value>b00e88ef2b648b50a45cf6a8b891bfa2</value>
+        <variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>775e2e2c93924b50f153fbc48aba1032</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>vaidehi_sadhu</sys_created_by>
+        <sys_created_on>2026-07-22 11:32:38</sys_created_on>
+        <sys_id>f76eee2c93924b50f153fbc48aba101a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>vaidehi_sadhu</sys_updated_by>
+        <sys_updated_on>2026-07-22 11:32:38</sys_updated_on>
+        <value>x_symct_dlp_eur_dlpincident</value>
+        <variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+</record_update>
